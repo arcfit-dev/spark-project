@@ -128,7 +128,7 @@ export function RevealOrchestrator({
             filter: revealStage >= 1 ? "blur(0px)" : "blur(2px)",
           }}
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-          className="lg:col-span-7 h-full"
+          className="lg:col-span-7 lg:sticky lg:top-6 h-[560px] lg:h-[640px]"
         >
           <BlueprintCanvas
             project={project}
